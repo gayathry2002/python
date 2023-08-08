@@ -1,0 +1,15 @@
+a=[10,20,10,10,30,50,78]
+mul=a[0]*a[1]
+print(mul)
+print(a.sort())
+print(a)
+a.pop(6)
+print(a)
+print(a.count(10))
+b=["a","b","c","d","e","f","g","h"]
+list=a+b
+print(list)
+c=[]
+d=input(":")
+c.append(d)
+print(c)
