@@ -96,11 +96,62 @@
 
 
 
-age=int(input("enter your age:"))
-day=str(input("day:"))
-if age<12 or age>65:
-    print("ticket cost is $5")
-elif 12<=age<=18  and  day=="wednesday":
-    print("ticket cost is $4")
+# age=int(input("enter your age:"))
+# day=str(input("day:"))
+# if age<12 or age>65:
+#     print("ticket cost is $5")
+# elif 12<=age<=18  and  day=="wednesday":
+#     print("ticket cost is $4")
+# else:
+#     print("ticket cost is $8")
+
+# amnt=int(input("enter your amount:"))
+# discount=(10/100)*amnt
+# if amnt>=100:
+#    print("applied a 10% discount of $",discount)
+# else:
+#    print("no discount is applied")
+
+print("which of the following is fruit")
+print("optins are:" "a.dog"  "b.hat"  " c.ball"   "d.apple")
+answer=str(input("enter your ans:"))
+ans="apple"
+score=0
+if answer==ans:
+    score+=1 
+    print("which of the following is even")
+    print("optins are:" "a.2"  "b.1"  " c.3"   "d.7")
+    answer=int(input("enter your ans:"))
+    ans=2
+
+    if answer==ans:
+       score+=1
+       print("captital of india")
+       print("optins are:" "a.delhi"  "b.kerala"  " c.maharastra"   "d.gujarat")
+       answer=str(input("enter your ans:"))
+       ans="delhi"
+       if answer==ans:
+          score+=1
+          print(score)
 else:
-    print("ticket cost is $8")
+    print("you entered wrong ans")
+    score-=1
+    print(score)
+    c= input("would you wanto to continue?")
+    if c == "yes":
+         print("captital of india")
+         print("optins are:" "a.delhi"  "b.kerala"  " c.maharastra"   "d.gujarat")
+         answer=str(input("enter your ans:"))
+         ans="delhi"
+         if answer==ans:
+            score+=1
+            print(score)
+
+    else:
+        print("thank you")
+
+print("total is:",score)
+
+
+
+
