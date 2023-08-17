@@ -42,14 +42,42 @@
 
 
 #vowel
-a=str(input("enter a string:"))
-vowel=['a','e','i','o','u']
-count=0
+# a=str(input("enter a string:"))
+# vowel=['a','e','i','o','u']
+# count=0
+# for b in a:
+#     if  b in vowel:
+#         count+=1
+# print(count)  
+    
+#name
+# s=" "
+# a=str(input("enter your name: "))
+# l=a.split()
+# for b in l:
+#     c=b.capitalize()
+#     s+=c + ' '
+   
+# print(s)
+
+
+#special char
+a="p@#.yt.@@hon#]"
+s=" "
+# l=a.split()
 for b in a:
-    if  b in vowel:
-        count+=1
-print(count)  
-    
+    if b.isalpha():
+       s+=b 
+        
+print(s)
 
 
-    
+
+# a=str(input("enter a string:"))
+# s=" "
+# l=a.split()
+# for b in a:
+#     if b.isalpha():
+#        s+=b 
+        
+# print(s)
