@@ -62,22 +62,90 @@
 
 
 #special char
-a="p@#.yt.@@hon#]"
-s=" "
-# l=a.split()
-for b in a:
-    if b.isalpha():
-       s+=b 
-        
-print(s)
-
-
-
-# a=str(input("enter a string:"))
+# a="p@#.yt.@@hon#]"
 # s=" "
-# l=a.split()
 # for b in a:
 #     if b.isalpha():
 #        s+=b 
         
 # print(s)
+
+
+
+# a=str(input("enter a string:"))
+# s=" "
+# for b in a:
+#     if b.isalpha():
+#        s+=b 
+# print(s)
+
+
+# for i in range(1,n+1):
+#     print(i) 
+
+
+# n=int(input("enter a range:"))
+# for i in range(1,n+1):
+#     if i % 2 == 0:
+#         print(i)
+    
+
+# a=int(input("enter a no:"))
+# fact=1
+# for i in range(1,a+1):
+#     fact*=i
+# print(fact)
+
+#sum and divisible by 3 or 5
+# a=[2,3,4,10,20,9,6,15]
+# sum=0
+# for i in a:
+#     if i % 3==0 or i % 5 == 0:
+#         sum+=i
+# print(sum)
+
+
+
+# l=[]
+# for i in range(8):
+#     a=int(input("enter no:"))
+#     l.append(a)
+#     sum=0
+# for b in l:
+#     if b % 3 == 0 or b % 5 == 0:
+#         sum+=b
+# print(sum) 
+
+#sum of n digits
+# x=int(input("enter a range:"))
+# sum=0
+# for i in range(1,x+1):
+#     sum+=i
+# print(sum)
+ 
+
+#count
+# a=int(input("enter a no:"))
+# b=str(a)
+# count=0
+# for i in b:
+#     count+=1
+# print(count)    
+
+l=[]
+sum=0
+for i in range(4):
+    a=int(input("enter a no:"))
+    l.append(a)
+    
+for i in l:
+    sum+=i
+
+average=sum/4
+
+for i in l:
+    if i>average:
+       print(i)
+    
+
+
