@@ -132,20 +132,104 @@
 #     count+=1
 # print(count)    
 
-l=[]
-sum=0
-for i in range(4):
-    a=int(input("enter a no:"))
-    l.append(a)
-    
-for i in l:
-    sum+=i
 
-average=sum/4
-
-for i in l:
-    if i>average:
-       print(i)
+#avg
+# l=[]
+# sum=0
+# for i in range(4):
+#     a=int(input("enter a no:"))
+#     l.append(a)
     
+# for i in l:
+#     sum+=i
+
+# average=sum/4
+
+# for i in l:
+#     if i>average:
+#        print(i)
+
+
+#print no of even $ odd no
+# l=[]
+# for i in range(7):
+#     a=int(input("enter a no:"))
+#     l.append(a)
+# count=0
+
+# for i in l:
+#     if i % 2 == 0:
+#         count+=1
+# print("count of even no:",count)
+# count=0
+# for i in l:
+#     if i % 2 != 0:
+#         count+=1
+# print("count of odd no:",count)  
+
+
+
+#palindrom
+# s=""
+# a=int(input("enter a no:"))
+# s=str(a)
+# for i in s:
+#     b=s[::-1]
+# if s==b:
+#      print(s,"is a palindrom")
+# else:
+#     print(s,"is not a palindrom")
+
+
+#sum of even no's in a list
+# l=[]
+# for i in range(8):
+#     a=int(input("enter a no:"))
+#     l.append(a)
+#     sum=0
+# for i in l:
+#     if i % 2 == 0:
+#         sum+=i
+# print(sum)
+
+
+#print odd no's
+# a=int(input("enter a no:"))
+# for i in range(1,a+1):
+#     if i % 2 != 0:
+#         print(i)
+
+
+#print even no's
+# a=int(input("enter a no:"))
+# for i in range(2,a+1):
+#      if i % 2 == 0:
+#         print(i)
+
+
+#multiplication table
+# a=int(input("enter a no:"))
+# for i in range(1,11):
+#     print(a,"x",i,"=",a*i)
+
+#greatest common divisor
+a=int(input("enter first no:"))
+b=int(input("enter second no:"))
+divisor=0
+if a<b:
+    for i in range(1,a+1):
+        if a%i==0 and b%i==0:
+            divisor+=i
+            print(divisor)
+
+
+
+
+     
+        
+
+
+
+
 
 
