@@ -213,15 +213,31 @@
 #     print(a,"x",i,"=",a*i)
 
 #greatest common divisor
-a=int(input("enter first no:"))
-b=int(input("enter second no:"))
-divisor=0
-if a<b:
-    for i in range(1,a+1):
-        if a%i==0 and b%i==0:
-            divisor+=i
-            print(divisor)
+# l=[]
+# a=12
+# b=6
+# if a<b:
+#     pass
+# else:
+#     for i in range(1,b+1):
+#         l.append(i)
+#         if a%i==0 and b%i==0:
+#             print(i)
+# max(l)
+# greatest=max(l)
+# print("gcd is:",greatest)
 
+
+
+#nested looping
+l=['abc','bcd','ccc']
+for i in l:
+    for j in i:
+        print(j)
+        
+    
+
+    
 
 
 
