@@ -125,12 +125,12 @@
  
 
 #count
-# a=int(input("enter a no:"))
-# b=str(a)
-# count=0
-# for i in b:
-#     count+=1
-# print(count)    
+a=int(input("enter a no:"))
+b=str(a)
+count=0
+for i in b:
+    count+=1
+print(count)    
 
 
 #avg
@@ -230,10 +230,10 @@
 
 
 #nested looping
-l=['abc','bcd','ccc']
-for i in l:
-    for j in i:
-        print(j)
+# l=['abc','bcd','ccc']
+# for i in l:
+#     for j in i:
+#         print(j)
         
     
 
