@@ -100,56 +100,12 @@
 
 
 
-# def number_to_words(number):
-#    num={0:"zero",1:"one",2:"two",3:"three",4:"four",5:"five",6:"six",7:"seven",8:"eight",9:"nine"}
-#    for i in number:
-#       j=int(i)
-#       if j in num.keys():
-#          print(num[j])
-# n=input("enter a no:")
-# number_to_words(n)
-
-
-# b="python"
-# def sample():
-#     global a
-#     a="abc"
-#     print("first:",b)
-# def sample2():
-#     print("second:",b)
-#     print(a)
-# sample()
-# sample2()
-
-
-# def sample(*args):
-#     print(args[0])
-# sample(5,4,7)
-
-# default parameters
-
-# def sample(a=4,b=10):
-#     print(a+b)
-# sample()
-
-# def sample(a=4,b=10):
-#     print(a+b)
-# sample(7,8)
-
-#recursion
-
-# def sample(a):
-#     if a>0:
-#         print("hello")
-#         a-=1
-#         sample(a)
-# sample(5)
-
-def sample(a):
-    if a<20:
-        if a%2!=0:
-           print(a)
-        a+=1
-        sample(a)
-
-sample(1)
+def number_to_words(number):
+  if number==0:
+    return "zero"
+ones=["","one","two","three","four","five","six","seven","eight","nine"]
+tens=["","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"]
+words=""
+number=int(input("enter a number:"))
+words=number_to_words(number)
+print(words)
