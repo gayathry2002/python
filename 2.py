@@ -56,8 +56,34 @@
 # ob.dis("gayathry",20)
 # ob.display(100)
 
-pass
-#multi-level-inheritance
+
+# class Animal:
+#     def __init__(self,name):
+#         self.name=name
+#     def dis(self):
+#         print(self.name)
+# class CanFly:
+#     def fly(self):
+#         pass
+# class CanSwim:
+#     def swim(self):
+#         pass
+# class Duck(Animal,CanFly,CanSwim):
+#     def __init__(self, color):
+#         self.color=color
+#     def display(self):
+#         print(self.color)
+# ob=Duck("purple")
+# obj=Animal("gayathry")
+# a=CanFly()
+# b=CanSwim()
+# obj.dis()
+# a.fly()
+# b.swim()
+# ob.display()
+
+
+# #multi-level-inheritance
 
 # class A:
 #     def dis(self):
@@ -78,25 +104,92 @@ pass
 # ob.c()
 
 
-class Person:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
-    def person(self):
-        print(self.name,self.age)
-class Employee(Person):
-    def __init__(self, salary):
-        self.salary=salary
-    def employee(self):
-        print(self.salary)
-class Manager(Employee):
-    def __init__(self, department):
-        self.department=department
-    def manager(self):
-        print(self.department)
-ob=Manager("sales")
-p=Person("anu",26)
-p.person()
-e=Employee(20000)
-e.employee()
-ob.manager()
+# class Person:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def person(self):
+#         print(self.name,self.age)
+# class Employee(Person):
+#     def __init__(self, salary):
+#         self.salary=salary
+#     def employee(self):
+#         print(self.salary)
+# class Manager(Employee):
+#     def __init__(self, department):
+#         self.department=department
+#     def manager(self):
+#         print(self.department)
+# ob=Manager("sales")
+# p=Person("anu",26)
+# p.person()
+# e=Employee(20000)
+# e.employee()
+# ob.manager()
+
+
+# class A:
+#     def sample(self):
+#         print("hello")
+# class B(A):
+#     pass
+# class C(A):
+#     pass
+# class D(A):
+#     pass
+# o=D()
+# ob=C()
+# obj=D()
+# obj.sample()
+# o.sample()
+# ob.sample()
+
+# class Vehicle:
+#     def start_engine(self,brand,model):
+#         self.brand=brand
+#         self.model=model
+#         print(self.brand,self.brand,"engine has started")
+# class Car(Vehicle):
+#     def drive(self,color,seat):
+#         self.color=color
+#         self.seat=seat
+#         print(self.color,self.seat,"car is being driven")
+# class Bike(Vehicle):
+#     def ride(self,color,type):
+#         self.color=color
+#         self.type=type
+#         print(self.color,self.type,"the bike is being ridden")
+
+# ob=Bike()
+# ob.ride("black","dgyy")
+# ob.start_engine("black","Harleys")
+# obj=Car()
+# obj.drive("black","dgyy")
+# obj.start_engine("black","Harleys")
+
+
+class A:
+        def sample(self):
+               print("hai")
+class B:
+        def dis(self):
+            print("hello")
+class C(A,B):
+       def dispaly(self):
+              print("zzz")
+class D(A):
+              pass
+class E(A):
+              pass
+e=E()
+e.sample()
+ob=D()
+ob.sample()
+obj=C()
+obj.dispaly()
+obj.sample()
+obj.dis()
+o=B()
+o.dis()
+
+        

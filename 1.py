@@ -16,7 +16,7 @@
 class calculator:
     def add(self,a,b):
         self.a=a
-        self.b=b 
+        self.b=b
         sum=a+b
         print(sum)
     def sub(self):
