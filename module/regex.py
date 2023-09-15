@@ -20,12 +20,14 @@
 
 
 
-import re
-s="hbkncjh@gmail.com"
-p=r"@gmail.com$"
-print(re.search(p,s))
+# import re
+# s="hbkncjh@gmail.com"
+# p=r"@gmail.com$"
+# print(re.search(p,s))
 
-if re.search(p,s):
-    print("valid")
-else:
-    print("invalid")
+# if re.search(p,s):
+#     print("valid")
+# else:
+#     print("invalid")
+
+
