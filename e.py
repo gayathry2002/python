@@ -1,56 +1,28 @@
-# a=5 
-
+# a=5
 # try:
-#     print(a/b) 
+#     print(a/b)
 # except:
 #     print("error happend")
+# print("hello")
 
-# print("hello") 
 
 
 # try:
-#    n=9
-#    d=0
-#    result=n/d
-#    print(result)
+#     n=9
+#     d=0
+#     result=n/d
+#     print(result)
 # except:
-#    print("error:d cannot be 0")
-# print("hyy")
+#     print("error:d cannot be 0")
 
 
 
-# a=10
 # try:
-#    print(a)
+#     print(a)
 # except:
-#    print("error happend:::")
-#    print("program continue.....")
+#     print("error happend:::")
+#     print("program continue....")
 # else:
-#    print("valid")
+#     print("valid")
 # finally:
-#    print("END!")
-
-
-# a=-5
-# if a>0:
-#     print("yes")
-# else:
-#     raise Exception("error!")
-
-
-# try:
-#    a=int(input("::"))
-# except:
-#    print("invalid")
-
-try:
-    a=int(input("::"))
-    b=int(input("::"))
-    s=a+b
-    print(s)
-except:
-    print("invalid")
-   
-   
-   
-
+#     print("END!")
